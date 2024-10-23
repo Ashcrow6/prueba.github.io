@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacción con Arrays y Funciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Interacción con Funciones y Arrays</h1>
+
+        <!-- Procesar Pedido -->
+        <section>
+            <h2>1. Procesar Pedido</h2>
+            <p>Introduce los elementos del pedido separados por comas:</p>
+            <input type="text" id="inputPedido" placeholder="Ejemplo: 'Pedro, pizza, ensalada'">
+            <button id="btnPedido">Procesar Pedido</button>
+            <p><strong>Resultado:</strong> <span id="resultadoPedido"></span></p>
+        </section>
+
+        <!-- Sumar Pares -->
+        <section>
+            <h2>2. Sumar Pares</h2>
+            <p>Introduce un array de números separados por comas:</p>
+            <input type="text" id="inputNumeros" placeholder="Ejemplo: '1, 2, 3, 4, 5, 6'">
+            <button id="btnSumarPares">Sumar Pares</button>
+            <p><strong>Resultado:</strong> <span id="resultadoSumarPares"></span></p>
+        </section>
+
+        <!-- Palabras que Terminan con A -->
+        <section>
+            <h2>3. Palabras que terminan con 'A'</h2>
+            <p>Introduce palabras separadas por comas:</p>
+            <input type="text" id="inputPalabras" placeholder="Ejemplo: 'casa, silla, mesa'">
+            <button id="btnPalabrasA">Verificar Palabras</button>
+            <p><strong>Resultado:</strong> <span id="resultadoPalabrasA"></span></p>
+        </section>
+
+        <!-- Buscar Palabras en un Array -->
+        <section>
+            <h2>4. Buscar Palabras</h2>
+            <p>Introduce un array de palabras y la palabra a buscar:</p>
+            <input type="text" id="inputArrayPalabras" placeholder="Ejemplo: 'hola, mundo, javascript, node'">
+            <input type="text" id="inputPalabraBuscar" placeholder="Palabra a buscar: 'mundo'">
+            <button id="btnBuscarPalabra">Buscar Palabras</button>
+            <p><strong>Resultado:</strong> <span id="resultadoBuscarPalabra"></span></p>
+        </section>
+
+        <!-- Buscar JavaScript en Matriz -->
+        <section>
+            <h2>5. Buscar JavaScript en una Matriz</h2>
+            <button id="btnBuscarJS">Buscar JavaScript</button>
+            <p><strong>Resultado:</strong> <span id="resultadoBuscarJS"></span></p>
+        </section>
+
+        <!-- Encontrar el Libro con Menos y Más Páginas -->
+        <section>
+            <h2>6. Libro con Menos y Más Páginas</h2>
+            <p>Introduce un array de números separados por comas (representando el número de páginas):</p>
+            <input type="text" id="inputLibros" placeholder="Ejemplo: '350, 120, 540, 275, 390, 130, 670'">
+            <button id="btnFindMinMax">Encontrar Min y Max</button>
+            <p><strong>Resultado:</strong> <span id="resultadoMinMax"></span></p>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
